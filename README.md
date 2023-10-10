@@ -17,8 +17,8 @@ in a Frame Buffer Object and then uses the depth texture in the following passes
 - Use cube mapping to produce shadows for entire scene.
 
 Help and tutorials from:
-	http://www.paulsprojects.net/opengl/shadowmap/shadowmap.html
-	http://fabiensanglard.net/shadowmapping/index.php
+- [Paul's Projects](http://www.paulsprojects.net/opengl/shadowmap/shadowmap.html)
+- [Fabien Sanglard's Website](http://fabiensanglard.net/shadowmapping/index.php)
 
 # Controls
 Press space to enable/disable automatic camera.
