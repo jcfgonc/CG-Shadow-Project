@@ -24,6 +24,6 @@ Help and tutorials from:
 Press space to enable/disable automatic camera.
 Keys AWSD and arrows for movement, Q/E for rolling, Page Up/Down for moving up/down, C to debug camera position and ESC to quit.
 
-
-(C) 2007-2023 João Carlos Ferreira Gonçalves
+# Contact
+João Carlos Ferreira Gonçalves
 jcfgonc@gmail.com OR jcgonc@dei.uc.pt
