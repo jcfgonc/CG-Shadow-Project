@@ -12,6 +12,8 @@ EngineData* data;
 GLfloat* matrix_bias;
 GLfloat* matrix_product;
 
+bool fullscreen;
+
 /* Sets up an sphere and a line at a ligh's location */
 void createLightBulb(Light* _l, GLfloat radius, GLuint sections) {
 	GLfloat mat_1[] = { 1.0, 1.0, 1.0, 1.0 };
@@ -395,6 +397,18 @@ void shadowCastingLight(bool status) {
 	createLightBulb(l0, 2.0, 8);
 }
 
+void toggleFullScreen() {
+	fullscreen = !fullscreen;
+	if (fullscreen) {
+		glutFullScreen();
+	}
+	else {
+		// TODO: restore previous window resolution here (must store it previously)
+		glutReshapeWindow(data->window_width, data->window_height);
+		glutPositionWindow(0, 0);
+	}
+}
+
 void createDisplayLists() {
 	data->scene_display_list = glGenLists(1);
 
@@ -518,6 +532,10 @@ void normalKeyPressed(unsigned char key, int x, int y) {
 		//toggle auto camera
 		data->autocamera = !data->autocamera;
 	}
+
+	else if (key == '\r' && data->keyboard->alt) { //enter, code = 13
+		toggleFullScreen();
+	}
 }
 
 void normalKeyReleased(unsigned char key, int x, int y) {
@@ -624,10 +642,11 @@ void display(void) {
 	// DRAW SCENE
 	displayScene();
 	//roll the machine
-	glutSwapBuffers();
 	glFlush();
-	if (data->window_resized)
+	glutSwapBuffers();
+	if (data->window_resized) {
 		data->window_resized = false;
+	}
 }
 
 void reshape(int w, int h) {
@@ -862,6 +881,8 @@ int main(int argc, char** argv) {
 
 	data->window_width = WINDOW_WIDTH;
 	data->window_height = WINDOW_HEIGHT;
+
+	fullscreen = false;
 
 	puts("(C) Joao Carlos Ferreira Goncalves");
 	puts("jcfgonc@gmail.com");
