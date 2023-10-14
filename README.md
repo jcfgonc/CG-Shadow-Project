@@ -29,6 +29,8 @@ C to debug camera position and ESC to quit. Alt+Enter toggles full-screen mode.
 - Abandon old deprecated GLee and move to a better OpenGL extension loading library
 - Reduce the shadow algorithm to two passes
 - Use cube mapping to produce shadows for the entire scene
+- Use a more extensive 3D model loading library
+- Change code so that it uses the programmable pipeline instead of the fixed one
 
 # Help and tutorials from
 - [Paul's Projects](http://www.paulsprojects.net/opengl/shadowmap/shadowmap.html)
