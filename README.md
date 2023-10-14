@@ -22,7 +22,7 @@ You can do whatever you want with this code. Just give proper credit.
 # Controls
 Press space to enable/disable automatic camera.
 Keys AWSD and arrows for movement, Q/E for rolling, Page Up/Down for moving up/down,
-C to debug camera position and ESC to quit.
+C to debug camera position and ESC to quit. Alt+Enter toggles full-screen mode.
 
 # Future work
 - Convert C'eish code to proper C++ and improve memory management (I suspect there may be some memory leaks somewhere)
