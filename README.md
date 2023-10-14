@@ -3,7 +3,7 @@
 OpenGL Computer Graphics project I developed back in 2007 for the corresponding course 
 at DEI/University of Coimbra. Got a score of 96/100.
 
-.. image:: screenshots/panorama.jpg
+![couple of screenshots](/screenshots/panorama.jpg)
 
 This project was written in C/C++ and is a simple 3D engine.
 The main focus was providing a base engine with shadow mapping, multi-texturing,
