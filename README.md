@@ -25,10 +25,10 @@ Keys AWSD and arrows for movement, Q/E for rolling, Page Up/Down for moving up/d
 C to debug camera position and ESC to quit.
 
 # Future work
-- Convert C'eish code to C++
-- Abandon GLee and move on to a better extension loading library
-- Reduce shadow algorithm to two passes
-- Use cube mapping to produce shadows for entire scene
+- Convert C'eish code to proper C++ and improve memory management (I suspect there may be some memory leaks somewhere)
+- Abandon old deprecated GLee and move to a better OpenGL extension loading library
+- Reduce the shadow algorithm to two passes
+- Use cube mapping to produce shadows for the entire scene
 
 # Help and tutorials from
 - [Paul's Projects](http://www.paulsprojects.net/opengl/shadowmap/shadowmap.html)
