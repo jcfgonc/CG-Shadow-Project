@@ -3,7 +3,7 @@
 OpenGL Computer Graphics project I developed back in 2007 for the corresponding course 
 at DEI/University of Coimbra. Got a score of 96/100.
 
-.. image:: screenshots/panorama.jpg
+![couple of screenshots](/screenshots/panorama.jpg)
 
 This project was written in C/C++ and is a simple 3D engine.
 The main focus was providing a base engine with shadow mapping, multi-texturing,
@@ -22,13 +22,15 @@ You can do whatever you want with this code. Just give proper credit.
 # Controls
 Press space to enable/disable automatic camera.
 Keys AWSD and arrows for movement, Q/E for rolling, Page Up/Down for moving up/down,
-C to debug camera position and ESC to quit.
+C to debug camera position and ESC to quit. Alt+Enter toggles full-screen mode.
 
 # Future work
-- Convert C'eish code to C++
-- Abandon GLee and move on to a better extension loading library
-- Reduce shadow algorithm to two passes
-- Use cube mapping to produce shadows for entire scene
+- Convert C'eish code to proper C++ and improve memory management (I suspect there may be some memory leaks somewhere)
+- Abandon old deprecated GLee and move to a better OpenGL extension loading library
+- Reduce the shadow algorithm to two passes
+- Use cube mapping to produce shadows for the entire scene
+- Use a more extensive 3D model loading library
+- Change code so that it uses the programmable pipeline instead of the fixed one
 
 # Help and tutorials from
 - [Paul's Projects](http://www.paulsprojects.net/opengl/shadowmap/shadowmap.html)
