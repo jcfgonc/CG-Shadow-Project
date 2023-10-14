@@ -32,10 +32,6 @@ C to debug camera position and ESC to quit. Alt+Enter toggles full-screen mode.
 - Use a more extensive 3D model loading library
 - Change code so that it uses the programmable pipeline instead of the fixed one
 
-# Help and tutorials from
-- [Paul's Projects](http://www.paulsprojects.net/opengl/shadowmap/shadowmap.html)
-- [Fabien Sanglard's Website](http://fabiensanglard.net/shadowmapping/index.php)
-
 # Dependencies
 - [Developer's Image Library (DevIL)](https://sourceforge.net/projects/openil/)
 - [GLee (GL Easy Extension library)](https://sourceforge.net/projects/glee/)
@@ -44,6 +40,11 @@ C to debug camera position and ESC to quit. Alt+Enter toggles full-screen mode.
 
 Back then I got a GLM version that makes use of the DevIL library to load textures in other file formats.
 I don't remember where I got it and I could not find it on the internet. That "rare" version is included in this project.
+
+# Credits
+- [Paul's Projects](http://www.paulsprojects.net/opengl/shadowmap/shadowmap.html)
+- [Fabien Sanglard's Website](http://fabiensanglard.net/shadowmapping/index.php)
+- [Dandis' indoor storage 3D model](https://3dwarehouse.sketchup.com/model/9cc583c0f5ab5446817a5669f354365d/indoor-storage?hl=en)
 
 # Contact
 João Carlos Ferreira Gonçalves
