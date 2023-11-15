@@ -8,7 +8,7 @@ at DEI/University of Coimbra. Got a score of 96/100.
 This project was written in C/C++ and is a simple 3D engine.
 The main focus was providing a base engine with shadow mapping, multi-texturing,
 transparency support, Wavefront 3D object loading, multiple viewports,
-and "first-person-shooter" controls for further works. The work supports
+and "first-person-shooter" controls for further work. The work supports
 cubic interpolation (Catmull-Rom spline) that is used for controlling the
 path and direction of both cameras and of the lights composing the scene. The shadow
 mapping algorithm is done using the fixed-pipeline with a three pass rendering,
